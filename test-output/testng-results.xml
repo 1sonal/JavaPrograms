@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="72" started-at="2022-11-11T08:46:21Z" finished-at="2022-11-11T08:46:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="72" started-at="2022-11-11T08:46:21Z" finished-at="2022-11-11T08:46:21Z">
+      <class name="demo.TestNgDemo">
+        <test-method status="PASS" signature="doLogin()[pri:2, instance:demo.TestNgDemo@50c87b21]" name="doLogin" duration-ms="15" started-at="2022-11-11T08:46:21Z" finished-at="2022-11-11T08:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:demo.TestNgDemo@50c87b21]" name="verifyTitle" duration-ms="4" started-at="2022-11-11T08:46:21Z" depends-on-methods="demo.TestNgDemo.doLogin" finished-at="2022-11-11T08:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="doRegistration()[pri:3, instance:demo.TestNgDemo@50c87b21]" name="doRegistration" duration-ms="2" started-at="2022-11-11T08:46:21Z" finished-at="2022-11-11T08:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegistration -->
+      </class> <!-- demo.TestNgDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
